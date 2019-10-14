@@ -52,6 +52,7 @@ void merge(int a[],int lstart,int lend,int rstart,int rend)
         }
         a[k] = tmp[index++];
     }
+    free(tmp);
 }
 
 void merge_sort(int a[],int start,int end)
